@@ -1,0 +1,109 @@
+/* Estilos globais */
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #5d8736; /* Cor de fundo clara */
+  color: #f4ffc3; /* Cor de texto padrão */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Input e Botão */
+input,
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+}
+
+/* Campos de texto */
+input {
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  width: 100%;
+  transition: box-shadow 0.2s, border-color 0.2s;
+  margin-bottom: 1rem;
+}
+
+input:focus {
+  border-color: #809d3c;
+  box-shadow: 0 0 0 2px #a9c46c;
+}
+
+/* Botão */
+button {
+  background-color: #809d3c;
+  color: #f4ffc3;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #a9c46c;
+}
+
+button:active {
+  transform: scale(0.98); /* Efeito clique */
+}
+
+/* Lista de lembretes */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: column; /* Empilhar os elementos em coluna */
+  align-items: flex-start;
+}
+
+li button {
+  background: none;
+  color: #ef4444;
+  font-size: 1rem;
+  margin-left: auto;
+}
+
+li button:hover {
+  color: #dc2626; /* Vermelho mais escuro */
+}
+
+/* Estilo para o lembrete (aninhado com a data em cima e o nome abaixo) */
+.reminder {
+  display: flex;
+  flex-direction: row; /* Alinha os itens horizontalmente */
+  justify-content: space-between; /* Coloca o conteúdo no espaço disponível */
+  align-items: center; /* Alinha os itens ao centro verticalmente */
+  padding: 0.1rem;
+  border-radius: 0.375rem;
+  width: 100%;
+}
+
+.reminder span {
+  flex-grow: 1; /* O nome do lembrete vai crescer para preencher o espaço disponível à esquerda */
+}
+
+.reminder .delete-button {
+  background: none;
+  color: #ef4444;
+  font-size: 1rem;
+  margin-left: 0.5rem; /* Um pequeno espaço entre o nome e o botão de exclusão */
+}
+
+.reminder .delete-button:hover {
+  color: #dc2626; /* Vermelho mais escuro ao passar o mouse */
+}
