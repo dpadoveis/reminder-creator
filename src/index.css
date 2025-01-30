@@ -1,18 +1,17 @@
-/* Estilos globais */
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #5d8736; /* Cor de fundo clara */
-  color: #f4ffc3; /* Cor de texto padrão */
+  background-color: #74ada4;
+  background-repeat: no-repeat;
+  color: #ffebc9;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Input e Botão */
 input,
 button {
   font-family: inherit;
@@ -21,9 +20,9 @@ button {
   border: none;
 }
 
-/* Campos de texto */
 input {
-  background-color: #fff;
+  background-color: #6E6E8C;
+  color: #d1d5db;
   border: 1px solid #d1d5db;
   padding: 0.5rem;
   border-radius: 0.375rem;
@@ -33,29 +32,10 @@ input {
 }
 
 input:focus {
-  border-color: #809d3c;
-  box-shadow: 0 0 0 2px #a9c46c;
+  border-color: #d1d5db;
+  box-shadow: 0 0 0 2px #d1d5db;
 }
 
-/* Botão */
-button {
-  background-color: #809d3c;
-  color: #f4ffc3;
-  padding: 0.5rem 1rem;
-  border-radius: 0.375rem;
-  cursor: pointer;
-  transition: background-color 0.2s, transform 0.1s;
-}
-
-button:hover {
-  background-color: #a9c46c;
-}
-
-button:active {
-  transform: scale(0.98); /* Efeito clique */
-}
-
-/* Lista de lembretes */
 ul {
   list-style-type: none;
   padding: 0;
@@ -67,43 +47,72 @@ li {
   padding: 0.5rem;
   border-radius: 0.375rem;
   display: flex;
-  flex-direction: column; /* Empilhar os elementos em coluna */
-  align-items: flex-start;
+  align-items: center;
+  padding: 0.2rem 1rem;
 }
 
-li button {
-  background: none;
-  color: #ef4444;
-  font-size: 1rem;
-  margin-left: auto;
-}
-
-li button:hover {
-  color: #dc2626; /* Vermelho mais escuro */
-}
-
-/* Estilo para o lembrete (aninhado com a data em cima e o nome abaixo) */
 .reminder {
   display: flex;
-  flex-direction: row; /* Alinha os itens horizontalmente */
-  justify-content: space-between; /* Coloca o conteúdo no espaço disponível */
-  align-items: center; /* Alinha os itens ao centro verticalmente */
-  padding: 0.1rem;
-  border-radius: 0.375rem;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
 }
 
-.reminder span {
-  flex-grow: 1; /* O nome do lembrete vai crescer para preencher o espaço disponível à esquerda */
+.reminder-form {
+  padding: 2px;
 }
 
-.reminder .delete-button {
-  background: none;
-  color: #ef4444;
+.reminder-form h2 {
+  color: #F4EBCF;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.reminder-form h3 {
+  color: #F4EBCF;
   font-size: 1rem;
-  margin-left: 0.5rem; /* Um pequeno espaço entre o nome e o botão de exclusão */
+  margin-bottom: 1rem;
+}
+
+.reminder-list h2 {
+  color: #F4EBCF;
+}
+
+.reminder-list p {
+  color: #F4EBCF;
+}
+
+.reminder span {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .reminder .delete-button:hover {
-  color: #dc2626; /* Vermelho mais escuro ao passar o mouse */
+  color: #dc2626;
+}
+
+.btn-delete {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.reminder-creator {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #525174;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reminder-item {
+  gap: 1rem;
+  margin-top: 8px;
 }
