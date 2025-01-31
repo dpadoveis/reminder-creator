@@ -18,6 +18,7 @@ namespace ReminderAPI.Controllers
         /// <returns>Instância do lembrete criada</returns>
         /// <exception cref="ErrorOnValidationException"></exception>
         [HttpPost]
+        [Route("register")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -35,6 +36,7 @@ namespace ReminderAPI.Controllers
         /// </summary>
         /// <returns>Todos os lembretes disponíveis no banco</returns>
         [HttpGet]
+        [Route("getAll")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -53,7 +55,7 @@ namespace ReminderAPI.Controllers
         /// <param name="id"></param>
         /// <returns>Status HTTP indicando que a solicitação foi bem sucedida</returns>
         /// <exception cref="NotFoundException"></exception>
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

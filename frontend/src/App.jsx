@@ -9,7 +9,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch(API_URL)
+    fetch(`${API_URL}/getAll`)
       .then((response) => response.json())
       .then((data) => setReminders(data))
   }, []);
@@ -18,7 +18,7 @@ function App() {
   const handleAddReminder = (name, date) => {
     const newReminder = { name, date };
 
-    fetch(API_URL, {
+    fetch(`${API_URL}/register`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -32,7 +32,7 @@ function App() {
 
 
   const handleDeleteReminder = (id) => {
-    fetch(`${API_URL}/${id}`, {
+    fetch(`${API_URL}/delete/${id}`, {
       method: "DELETE",
     })
       .then(() => setReminders((prev) => prev.filter((reminder) => reminder.id !== id)))
