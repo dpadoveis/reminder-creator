@@ -19,7 +19,7 @@ function ReminderForm({ onAddReminder }) {
       alert("A data não pode ser anterior à data atual!");
       return;
     }
-  
+
     onAddReminder(name, date);
     setName("");
     setDate("");
