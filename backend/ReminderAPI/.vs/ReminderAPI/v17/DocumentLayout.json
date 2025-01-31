@@ -1,45 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminderapi\\reminderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\services\\getallreminders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\services\\getallreminders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminderapi\\reminderapi\\controllers\\remindercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\controllers\\remindercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\controllers\\remindercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA685BBB-BE94-4EC2-B345-B84EB35CA9C0}|ReminderAPI.Test\\ReminderAPI.Test.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminderapi\\reminderapi.test\\remindercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\services\\deletereminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\services\\deletereminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\services\\createreminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\services\\createreminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA685BBB-BE94-4EC2-B345-B84EB35CA9C0}|ReminderAPI.Test\\ReminderAPI.Test.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi.test\\remindercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA685BBB-BE94-4EC2-B345-B84EB35CA9C0}|ReminderAPI.Test\\ReminderAPI.Test.csproj|solutionrelative:reminderapi.test\\remindercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminderapi\\reminderapi\\remindersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\remindersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\remindersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminderapi\\reminderapi\\entities\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\entities\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\entities\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminderapi\\reminderapi\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminderapi\\reminderapi\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminderapi\\reminderapi\\exceptions\\erroronvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\exceptions\\erroronvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\exceptions\\erroronvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminderapi\\reminderapi\\responses\\responseerrorjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\responses\\responseerrorjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\responses\\responseerrorjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminderapi\\reminderapi\\exceptions\\reminderexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|c:\\users\\diogo\\desktop\\projeto dti\\reminder-creator\\backend\\reminderapi\\reminderapi\\exceptions\\reminderexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F94EC24-374C-463D-81A8-20FBF80F3380}|ReminderAPI\\ReminderAPI.csproj|solutionrelative:reminderapi\\exceptions\\reminderexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,28 +62,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteReminder.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Services\\DeleteReminder.cs",
+              "RelativeDocumentMoniker": "ReminderAPI\\Services\\DeleteReminder.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Services\\DeleteReminder.cs",
+              "RelativeToolTip": "ReminderAPI\\Services\\DeleteReminder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:05:53.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllReminders.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Services\\GetAllReminders.cs",
+              "RelativeDocumentMoniker": "ReminderAPI\\Services\\GetAllReminders.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Services\\GetAllReminders.cs",
+              "RelativeToolTip": "ReminderAPI\\Services\\GetAllReminders.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:01:59.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateReminder.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Services\\CreateReminder.cs",
+              "RelativeDocumentMoniker": "ReminderAPI\\Services\\CreateReminder.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Services\\CreateReminder.cs",
+              "RelativeToolTip": "ReminderAPI\\Services\\CreateReminder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T23:46:17.778Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ReminderController.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Controllers\\ReminderController.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Controllers\\ReminderController.cs",
               "RelativeDocumentMoniker": "ReminderAPI\\Controllers\\ReminderController.cs",
-              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Controllers\\ReminderController.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Controllers\\ReminderController.cs",
               "RelativeToolTip": "ReminderAPI\\Controllers\\ReminderController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwDQAAAACAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T11:51:01.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ReminderException.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Exceptions\\ReminderException.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Exceptions\\ReminderException.cs",
               "RelativeDocumentMoniker": "ReminderAPI\\Exceptions\\ReminderException.cs",
-              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Exceptions\\ReminderException.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Exceptions\\ReminderException.cs",
               "RelativeToolTip": "ReminderAPI\\Exceptions\\ReminderException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,11 +130,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Reminder.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Entities\\Reminder.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Entities\\Reminder.cs",
               "RelativeDocumentMoniker": "ReminderAPI\\Entities\\Reminder.cs",
-              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Entities\\Reminder.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Entities\\Reminder.cs",
               "RelativeToolTip": "ReminderAPI\\Entities\\Reminder.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,11 +142,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ErrorOnValidationException.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Exceptions\\ErrorOnValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Exceptions\\ErrorOnValidationException.cs",
               "RelativeDocumentMoniker": "ReminderAPI\\Exceptions\\ErrorOnValidationException.cs",
-              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Exceptions\\ErrorOnValidationException.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Exceptions\\ErrorOnValidationException.cs",
               "RelativeToolTip": "ReminderAPI\\Exceptions\\ErrorOnValidationException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,11 +154,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Exceptions\\NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "ReminderAPI\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Exceptions\\NotFoundException.cs",
               "RelativeToolTip": "ReminderAPI\\Exceptions\\NotFoundException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -115,50 +166,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Program.cs",
               "RelativeDocumentMoniker": "ReminderAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Program.cs",
               "RelativeToolTip": "ReminderAPI\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T12:55:06.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "RemindersDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\RemindersDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\RemindersDbContext.cs",
               "RelativeDocumentMoniker": "ReminderAPI\\RemindersDbContext.cs",
-              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\RemindersDbContext.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\RemindersDbContext.cs",
               "RelativeToolTip": "ReminderAPI\\RemindersDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T14:28:10.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T14:28:10.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ReminderControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI.Test\\ReminderControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI.Test\\ReminderControllerTests.cs",
               "RelativeDocumentMoniker": "ReminderAPI.Test\\ReminderControllerTests.cs",
-              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI.Test\\ReminderControllerTests.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI.Test\\ReminderControllerTests.cs",
               "RelativeToolTip": "ReminderAPI.Test\\ReminderControllerTests.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:45:18.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:45:18.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Filters\\ExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Filters\\ExceptionFilter.cs",
               "RelativeDocumentMoniker": "ReminderAPI\\Filters\\ExceptionFilter.cs",
-              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Filters\\ExceptionFilter.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Filters\\ExceptionFilter.cs",
               "RelativeToolTip": "ReminderAPI\\Filters\\ExceptionFilter.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAQwB8AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -166,11 +215,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ResponseErrorJson.cs",
-              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Responses\\ResponseErrorJson.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Responses\\ResponseErrorJson.cs",
               "RelativeDocumentMoniker": "ReminderAPI\\Responses\\ResponseErrorJson.cs",
-              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\Responses\\ResponseErrorJson.cs",
+              "ToolTip": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\Responses\\ResponseErrorJson.cs",
               "RelativeToolTip": "ReminderAPI\\Responses\\ResponseErrorJson.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

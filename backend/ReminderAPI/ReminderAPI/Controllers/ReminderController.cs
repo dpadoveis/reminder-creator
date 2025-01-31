@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ReminderAPI.Entities;
 using ReminderAPI.Exceptions;
+using ReminderAPI.Services;
 
 namespace ReminderAPI.Controllers
 {
@@ -9,15 +10,6 @@ namespace ReminderAPI.Controllers
     [ApiController]
     public class ReminderController : ControllerBase
     {
-        private readonly RemindersDbContext _dbContext;
-
-        public ReminderController()
-        {
-            _dbContext = new RemindersDbContext();
-        }
-
-
-
         /// <summary>
         /// Cria um lembrete no banco de dados, inserindo nome e data
         /// </summary>
@@ -29,30 +21,12 @@ namespace ReminderAPI.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [Route("CreateReminder")]
         public async Task<IActionResult> Create([FromBody] Reminder request)
         {
-
-            if (string.IsNullOrWhiteSpace(request.Name))
-            {
-                throw new ErrorOnValidationException("Nome inválido!");
-            }
-
-            var reminder = new Reminder
-            {
-                Name = request.Name,
-                Date = request.Date,
-            };
-
-            _dbContext.Reminders.Add(reminder);
-            await _dbContext.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetAll), new { id = reminder.Id }, reminder);
+            var service = new CreateReminder();
+            var response = await service.Execute(request);
+            return CreatedAtAction(nameof(GetAll), new { id = response.Id }, response);
         }
-    
-  
-
-
 
 
         /// <summary>
@@ -64,21 +38,12 @@ namespace ReminderAPI.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [Route("GetAllReminders")]
         public async Task<IActionResult> GetAll()
         {
-            var reminders = await _dbContext.Reminders.ToListAsync(); 
-
-            var response = reminders.Select(reminder => new
-            {
-                reminder.Id,
-                reminder.Name,
-                reminder.Date
-            }).ToList();
-
-            return Ok(response);
+            var service = new GetAllReminders();
+            var reminders = await service.GetAll();
+            return Ok(reminders);
         }
-
 
 
         /// <summary>
@@ -94,18 +59,11 @@ namespace ReminderAPI.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Delete(Guid id)
         {
-                var reminder = await _dbContext.Reminders.FindAsync(id);
-                if (reminder == null)
-                {
-                    throw new NotFoundException("Lembrete não encontrado.");
-                }
-
-                _dbContext.Reminders.Remove(reminder);
-                await _dbContext.SaveChangesAsync();
-
-                return NoContent();
-            }
-            
+            var service = new DeleteReminder();
+            await service.Delete(id);
+            return NoContent();
         }
+
     }
-    
+}
+

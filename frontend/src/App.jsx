@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import ReminderForm from "./components/ReminderForm";
 import ReminderList from "./components/ReminderList";
 
-const API_URL = "https://localhost:7102/api/reminders";
+const API_URL = "https://localhost:7102/api/reminder";
 
 function App() {
   const [reminders, setReminders] = useState([]);
@@ -12,7 +12,6 @@ function App() {
     fetch(API_URL)
       .then((response) => response.json())
       .then((data) => setReminders(data))
-      .catch((error) => console.error("Erro ao buscar lembretes:", error));
   }, []);
 
 

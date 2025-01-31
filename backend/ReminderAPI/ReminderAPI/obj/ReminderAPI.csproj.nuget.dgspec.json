@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj": {}
+    "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj": {
+    "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj",
         "projectName": "ReminderAPI",
-        "projectPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj",
+        "projectPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj",
         "packagesPath": "C:\\Users\\Diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\obj\\",
+        "outputPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",

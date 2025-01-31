@@ -7191,11 +7191,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI.Test\\ReminderAPI.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI.Test\\ReminderAPI.Test.csproj",
       "projectName": "ReminderAPI.Test",
-      "projectPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI.Test\\ReminderAPI.Test.csproj",
+      "projectPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI.Test\\ReminderAPI.Test.csproj",
       "packagesPath": "C:\\Users\\Diogo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI.Test\\obj\\",
+      "outputPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7212,8 +7212,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj": {
-              "projectPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj"
+            "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj": {
+              "projectPath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj"
             }
           }
         }

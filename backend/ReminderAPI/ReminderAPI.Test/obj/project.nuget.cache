@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jgoukuaGdVre+1O4AH+vHYbhtbkYUhs+ZJoXZahdQ1R3TBvbyFZYh1z8G07h5wy0LYoKNdFU2FW9ejOqr0s4UQ==",
+  "dgSpecHash": "vi0/cAxBI0g/Av8FERV4ajv2X+3+XezEZjuGNbmhZ5VS2vGNYFqDlzfl5+ECgLZJnR7v3c3Nidnb1iIxfnAn5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI.Test\\ReminderAPI.Test.csproj",
+  "projectFilePath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI.Test\\ReminderAPI.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diogo\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Diogo\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

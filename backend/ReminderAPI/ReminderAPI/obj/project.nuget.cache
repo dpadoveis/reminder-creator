@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oCHPQd56RqIyYu9vwiLzJmLgyhCZ5d0qw/VkVCbgoMvIjefw9CvuVgTkFrOnFkH8ANAt8MWz5fgNZJnZdOB55g==",
+  "dgSpecHash": "iM+amdwummuKicWONUsBvnjyXpSK5ykQgmuxh4Y1Dg4XSGsOeqxkq29+cBr0Tz2ocCacZIa5URmoo9FsL2CFbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj",
+  "projectFilePath": "C:\\Users\\Diogo\\Desktop\\projeto dti\\reminder-creator\\backend\\ReminderAPI\\ReminderAPI\\ReminderAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diogo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Diogo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
