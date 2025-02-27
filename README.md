@@ -7,7 +7,6 @@ Este é um projeto full-stack desenvolvido com **.NET** no backend e **React** n
 ### Backend:
 
 - **ASP.NET Core**
-- **Entity Framework Core**
 - **SQLite**
 - **Swagger**
 - **xUnit** (testes unitários)
